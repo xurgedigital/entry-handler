@@ -1,1 +1,1 @@
-web: python entrybot.py
+web: python app.py
