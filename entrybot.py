@@ -24,8 +24,8 @@ bot = commands.Bot(command_prefix='!!',
                    owner_id=600498789362565123,
                    help_command=None)
 bot.config_token = (
-    #"OTc1Nzc4ODQwMzE4MTg1NTUy.GO2sP9.bhOhCI-Ar2-_yf_yd1XTzRAQjc98-R9ZJYKggc")
-    "OTUyNjUzMjQ1MDI3ODYwNTcw.G4Icab.SBF8-YdltFUCf-dYinIt_dfWhbxsFY-4xskQ8Y")
+    #"TOKEN")
+    "TOKEN")
 logging.basicConfig(level=logging.INFO)
 
 # def get_data(url):
