@@ -35,6 +35,6 @@ with open('users.json', 'r+') as f:
     json.dump(json_object, f, indent=2) 
     f.truncate()
 session.close()
-headers={"Bearer":"5a3816a4942b83949579741785e73b38"}
+headers={"Bearer":"token"}
 r = requests.post("https://xurge-coming.bubbleapps.io/version-test/api/1.1/wf/entries/?start_id=11111111&end_id=22222222",headers=headers,json=data)
 print(r.status_code, r.reason)
